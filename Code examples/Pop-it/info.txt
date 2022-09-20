@@ -1,0 +1,8 @@
+Project name "Pop-it"
+The project architecture was developed on the basic of StangeIoC. 
+
+BridgeReceivGameEventJsonCommand.cs - get json and translate into model-contract
+FieldObjectsContainers.cs - create child containers for game field
+GameSettingsModel.cs - global settings for game project
+MainContextRoot.cs - the base of architecture
+TransportBridgeView.cs - base class for talk with server 

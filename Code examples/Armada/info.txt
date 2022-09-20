@@ -1,0 +1,16 @@
+Name of the project "Armada"
+The project architecture was developed based on StangeIoC.
+
+Armada consists of 2 parts
+the first is the global game architecture and content display (Unity and StangeIoC)
+the second is only the logical part
+
+I want to show examples of the logical part.
+
+Pattern Builder!
+
+ShipSetupDataCommand.cs - example for create ship
+Carpenter.cs - Director for ShipBuilder
+ShipBuilder.cs - abstract class for Builder
+SingleDeckShipBuilder.cs - concrete Builder
+CoreShip.cs - product
